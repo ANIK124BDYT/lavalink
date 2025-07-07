@@ -1,36 +1,36 @@
 # 🚀 Lavalink VPS Auto Installer
 
-A fully automated script to install and manage Lavalink on your Ubuntu VPS, complete with SSL, NGINX reverse proxy, and systemd support.
+![GitHub repo size](https://img.shields.io/github/repo-size/ANIK124BDYT/lavalink?color=blue&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/ANIK124BDYT/lavalink?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/ANIK124BDYT/lavalink?color=green&style=for-the-badge)
+![Made with Bash](https://img.shields.io/badge/Made%20with-Bash-blue?style=for-the-badge)
 
-> 👑 Made with ❤️ by **ANIK124BD**
+> 👑 **Made by [`ANIK124BD`](https://github.com/ANIK124BDYT)**
 
 ---
 
 ## 📦 Features
 
-- Auto installs **Java 17**, **NGINX**, **Lavalink**
-- Auto configures **systemd** service
-- Reverse proxy with **NGINX**
-- Automatic **SSL certificate** using Let's Encrypt
-- Fully **interactive** prompts
-- Supports **uninstallation** option
+- ⚙️ Full Lavalink install in one command
+- 🔐 SSL with Let's Encrypt (HTTPS)
+- 🚀 Systemd service auto-setup
+- 🌐 Reverse proxy with NGINX
+- 🔁 Uninstaller included
+- 👨‍💻 Fully interactive script
+- ☕ Installs Java 17
 
 ---
 
 ## 🛠 Requirements
 
-- Ubuntu VPS (recommended Ubuntu 20.04 or 22.04)
-- Root access (`sudo` or root login)
-- A domain name (e.g., `lava.yourdomain.com`)
-- DNS A record must point your domain to the VPS IP
+- ✅ Ubuntu 20.04 / 22.04 VPS
+- ✅ Root access (or sudo)
+- ✅ A domain (e.g., `lava.yourdomain.com`)
+- ✅ DNS A record pointing to VPS IP
 
 ---
 
-
 ## 📥 One-Line Installation (Recommended)
-
-Run this command on your VPS:
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/ANIK124BDYT/lavalink/main/installer.sh)
-
